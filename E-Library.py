@@ -194,7 +194,7 @@ def returnBook():
     #Menerima input user berupa kode buku yang akan dikembalikan
     return_book = int(input("Masukkan No. Buku yang Ingin dikembalikan : "))
     #Kondisi jika user tidak mengembalikan buku
-    if return_book == 0 or return_book > 5:
+    if return_book == 0 or return_book > 5 or books_borrowed[logged][return_book-1] == 0:
         #Kembali ke menu sebelumnya
         print("==========================================================")
         print("")

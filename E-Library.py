@@ -19,7 +19,7 @@ books = [["Purcell - Calculus 9th Edition", 3],
         ["Brady - Chemistry 7th Edition", 4],
         ["Chang - Chemistry 10th Edition", 5],
         ["Giancoli - Physics Prcinciples with Applications 7th Edition", 5],
-        ["Serway - Principle of Physics 4th Edition", 3],
+        ["Serway - Principle of Physics 4th Edition", 0],
         ["Riley - Mathematical Methods for Physics and Engineering", 1]]
 
 #Fungsi untuk menampilkan start menu
